@@ -4,16 +4,16 @@
 
 
 
-<html lang="zh-Hans">
+<html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
 <meta name="theme-color" content="#222">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=7.3.0">
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=7.3.0">
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=7.3.0">
-  <link rel="mask-icon" href="/images/logo.svg?v=7.3.0" color="#222">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon.ico?v=7.3.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon.ico?v=7.3.0">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon.ico?v=7.3.0">
+  <link rel="mask-icon" href="/images/favicon.ico?v=7.3.0" color="#222">
 
 <link rel="stylesheet" href="/css/main.css?v=7.3.0">
 
@@ -28,9 +28,9 @@
     scheme: 'Muse',
     version: '7.3.0',
     exturl: false,
-    sidebar: {"position":"left","display":"post","offset":12,"onmobile":false},
+    sidebar: {"position":"right","display":"post","offset":12,"onmobile":false},
     copycode: {"enable":false,"show_result":false,"style":null},
-    back2top: {"enable":true,"sidebar":false,"scrollpercent":false},
+    back2top: {"enable":true,"sidebar":false,"scrollpercent":true},
     bookmark: {"enable":false,"color":"#222","save":"auto"},
     fancybox: false,
     mediumzoom: false,
@@ -47,20 +47,21 @@
     path: '',
     motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
     translation: {
-      copy_button: 'Kopieren',
-      copy_success: 'Kopiert',
-      copy_failure: 'Kopieren fehlgeschlagen'
+      copy_button: '复制',
+      copy_success: '复制成功',
+      copy_failure: '复制失败'
     }
   };
 </script>
 
   <meta name="description" content="有理想在的地方，地狱就是天堂！">
+<meta name="keywords" content="Hexo GitHub Python Linux">
 <meta property="og:type" content="website">
 <meta property="og:title" content="逍遥小吕">
 <meta property="og:url" content="https://xiaoyao-xiaolv.github.io/index.html">
 <meta property="og:site_name" content="逍遥小吕">
 <meta property="og:description" content="有理想在的地方，地狱就是天堂！">
-<meta property="og:locale" content="zh-Hans">
+<meta property="og:locale" content="zh-CN">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="逍遥小吕">
 <meta name="twitter:description" content="有理想在的地方，地狱就是天堂！">
@@ -117,7 +118,7 @@
 
 </head>
 
-<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-CN">
   <div class="container use-motion">
     <div class="headband"></div>
 
@@ -137,7 +138,7 @@
   </div>
 
   <div class="site-nav-toggle">
-    <button aria-label="Navigationsleiste an/ausschalten">
+    <button aria-label="切换导航栏">
       <span class="btn-bar"></span>
       <span class="btn-bar"></span>
       <span class="btn-bar"></span>
@@ -157,7 +158,29 @@
       
     
 
-    <a href="/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> <br>Startseite</a>
+    <a href="/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> <br>首页</a>
+
+  </li>
+      
+      
+      
+        
+        <li class="menu-item menu-item-tags">
+      
+    
+
+    <a href="/tags/" rel="section"><i class="menu-item-icon fa fa-fw fa-tags"></i> <br>标签</a>
+
+  </li>
+      
+      
+      
+        
+        <li class="menu-item menu-item-categories">
+      
+    
+
+    <a href="/categories/" rel="section"><i class="menu-item-icon fa fa-fw fa-th"></i> <br>分类</a>
 
   </li>
       
@@ -168,7 +191,18 @@
       
     
 
-    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br>Archiv</a>
+    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br>归档</a>
+
+  </li>
+      
+      
+      
+        
+        <li class="menu-item menu-item-about">
+      
+    
+
+    <a href="/about/" rel="section"><i class="menu-item-icon fa fa-fw fa-user"></i> <br>关于</a>
 
   </li>
   </ul>
@@ -197,7 +231,7 @@
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="逍遥小吕">
       <meta itemprop="description" content="有理想在的地方，地狱就是天堂！">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="image" content="/images/user.jpg">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
@@ -215,13 +249,13 @@
               <span class="post-meta-item-icon">
                 <i class="fa fa-calendar-o"></i>
               </span>
-              <span class="post-meta-item-text">Veröffentlicht am</span>
+              <span class="post-meta-item-text">发表于</span>
 
               
                 
               
 
-              <time title="Erstellt: 2019-08-22 17:40:51 / Geändert am: 17:41:51" itemprop="dateCreated datePublished" datetime="2019-08-22T17:40:51+08:00">2019-08-22</time>
+              <time title="创建时间：2019-08-22 17:40:51 / 修改时间：17:41:51" itemprop="dateCreated datePublished" datetime="2019-08-22T17:40:51Z">2019-08-22</time>
             </span>
           
             
@@ -240,8 +274,16 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <p>#一、基本环境<br>##1、安装Node.js和配置好Node.js环境</p>
+          <h1 id="一、基本环境"><a href="#一、基本环境" class="headerlink" title="一、基本环境"></a>一、基本环境</h1><h2 id="1、Node-js环境安装和配置"><a href="#1、Node-js环境安装和配置" class="headerlink" title="1、Node.js环境安装和配置"></a>1、Node.js环境安装和配置</h2><ul>
+<li><a href="http://www.google.com/" target="_blank" rel="noopener">Node.js安装配置</a></li>
+</ul>
+<h2 id="2、Git环境安装和配置"><a href="#2、Git环境安装和配置" class="headerlink" title="2、Git环境安装和配置"></a>2、Git环境安装和配置</h2><ul>
+<li><a href="http://www.google.com/" target="_blank" rel="noopener">Git安装配置</a></li>
+</ul>
+<h1 id="二、Hexo安装使用"><a href="#二、Hexo安装使用" class="headerlink" title="二、Hexo安装使用"></a>二、Hexo安装使用</h1><h2 id="1、Hexo全局安装"><a href="#1、Hexo全局安装" class="headerlink" title="1、Hexo全局安装"></a>1、Hexo全局安装</h2><p>win在cmd命令行中通过npm安装Hexo，-g表示全局安装。</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install -g hexo-cli</span><br></pre></td></tr></table></figure>
 
+<h1 id="三、创建GitHub仓库"><a href="#三、创建GitHub仓库" class="headerlink" title="三、创建GitHub仓库"></a>三、创建GitHub仓库</h1><h2 id="1、创建项目"><a href="#1、创建项目" class="headerlink" title="1、创建项目"></a>1、创建项目</h2>
         
       
     </div>
@@ -284,10 +326,10 @@
 
       <ul class="sidebar-nav motion-element">
         <li class="sidebar-nav-toc" data-target="post-toc-wrap">
-          Inhaltsverzeichnis
+          文章目录
         </li>
         <li class="sidebar-nav-overview" data-target="site-overview-wrap">
-          Übersicht
+          站点概览
         </li>
       </ul>
 
@@ -299,6 +341,9 @@
       <div class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image"
+      src="/images/user.jpg"
+      alt="逍遥小吕">
   <p class="site-author-name" itemprop="name">逍遥小吕</p>
   <div class="site-description motion-element" itemprop="description">有理想在的地方，地狱就是天堂！</div>
 </div>
@@ -308,7 +353,7 @@
           <a href="/archives/">
         
           <span class="site-state-item-count">1</span>
-          <span class="site-state-item-name">Artikel</span>
+          <span class="site-state-item-name">日志</span>
         </a>
       </div>
     
@@ -325,7 +370,7 @@
           
         
         <span class="site-state-item-count">1</span>
-        <span class="site-state-item-name">schlagwörter</span>
+        <span class="site-state-item-name">标签</span>
         </a>
       </div>
     
@@ -334,6 +379,30 @@
     <a href="/atom.xml" rel="alternate">
       <i class="fa fa-rss"></i>RSS
     </a>
+  </div>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+      
+      
+        
+      
+      
+        
+      
+        <a href="https://github.com/xiaoyao-xiaolv" title="GitHub &rarr; https://github.com/xiaoyao-xiaolv" rel="noopener" target="_blank"><i class="fa fa-fw fa-github"></i>GitHub</a>
+      </span>
+    
+      <span class="links-of-author-item">
+      
+      
+        
+      
+      
+        
+      
+        <a href="mailto:xiaoyaoxiaolv@gmail.com" title="E-Mail &rarr; mailto:xiaoyaoxiaolv@gmail.com" rel="noopener" target="_blank"><i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+      </span>
+    
   </div>
 
 
@@ -357,11 +426,30 @@
   </span>
   <span class="author" itemprop="copyrightHolder">逍遥小吕</span>
 </div>
-  <div class="powered-by">Erstellt mit  <a href="https://hexo.io" class="theme-link" rel="noopener" target="_blank">Hexo</a> v3.9.0</div>
+  <div class="powered-by">由 <a href="https://hexo.io" class="theme-link" rel="noopener" target="_blank">Hexo</a> 强力驱动 v3.9.0</div>
   <span class="post-meta-divider">|</span>
-  <div class="theme-info">Design – <a href="https://theme-next.org" class="theme-link" rel="noopener" target="_blank">NexT.Muse</a> v7.3.0</div>
+  <div class="theme-info">主题 – <a href="https://theme-next.org" class="theme-link" rel="noopener" target="_blank">NexT.Muse</a> v7.3.0</div>
 
         
+<div class="busuanzi-count">
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-user"></i>
+    </span>
+    <span class="site-uv" title="总访客量">
+      <span class="busuanzi-value" id="busuanzi_value_site_uv"></span>
+    </span>
+  
+    <span class="post-meta-divider">|</span>
+  
+    <span class="post-meta-item-icon">
+      <i class="fa fa-eye"></i>
+    </span>
+    <span class="site-pv" title="总访问量">
+      <span class="busuanzi-value" id="busuanzi_value_site_pv"></span>
+    </span>
+  
+</div>
 
 
 
