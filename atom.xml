@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://xiaoyao-xiaolv.github.io/"/>
-  <updated>2019-08-22T17:41:51.000Z</updated>
+  <updated>2019-08-23T07:47:01.099Z</updated>
   <id>https://xiaoyao-xiaolv.github.io/</id>
   
   <author>
@@ -18,20 +18,19 @@
   
   <entry>
     <title>Hexo搭建个人博客:环境安装搭建</title>
-    <link href="https://xiaoyao-xiaolv.github.io/2019/08/23/Hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%B3%BB%E5%88%97%EF%BC%9A%E7%8E%AF%E5%A2%83%E5%AE%89%E8%A3%85%E6%90%AD%E5%BB%BA/"/>
-    <id>https://xiaoyao-xiaolv.github.io/2019/08/23/Hexo搭建博客系列：环境安装搭建/</id>
-    <published>2019-08-22T17:40:51.000Z</published>
-    <updated>2019-08-22T17:41:51.000Z</updated>
+    <link href="https://xiaoyao-xiaolv.github.io/2019/08/22/Hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%B3%BB%E5%88%97%EF%BC%9A%E7%8E%AF%E5%A2%83%E5%AE%89%E8%A3%85%E6%90%AD%E5%BB%BA/"/>
+    <id>https://xiaoyao-xiaolv.github.io/2019/08/22/Hexo搭建博客系列：环境安装搭建/</id>
+    <published>2019-08-22T09:34:37.174Z</published>
+    <updated>2019-08-23T07:47:01.099Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="一、基本环境"><a href="#一、基本环境" class="headerlink" title="一、基本环境"></a>一、基本环境</h1><h2 id="1、Node-js环境安装和配置"><a href="#1、Node-js环境安装和配置" class="headerlink" title="1、Node.js环境安装和配置"></a>1、Node.js环境安装和配置</h2><ul><li><a href="http://www.google.com/" target="_blank" rel="noopener">Node.js安装配置</a></li></ul><h2 id="2、Git环境安装和配置"><a href="#2、Git环境安装和配置" class="headerlink" title="2、Git环境安装和配置"></a>2、Git环境安装和配置</h2><ul><li><a href="http://www.google.com/" target="_blank" rel="noopener">Git安装配置</a></li></ul><h1 id="二、Hexo安装使用"><a href="#二、Hexo安装使用" class="headerlink" title="二、Hexo安装使用"></a>二、Hexo安装使用</h1><h2 id="1、Hexo全局安装"><a href="#1、Hexo全局安装" class="headerlink" title="1、Hexo全局安装"></a>1、Hexo全局安装</h2><p>win在cmd命令行中通过npm安装Hexo，-g表示全局安装。</p><a id="more"></a><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install -g hexo-cli</span><br></pre></td></tr></table></figure><h1 id="三、创建GitHub仓库"><a href="#三、创建GitHub仓库" class="headerlink" title="三、创建GitHub仓库"></a>三、创建GitHub仓库</h1><h2 id="1、创建项目"><a href="#1、创建项目" class="headerlink" title="1、创建项目"></a>1、创建项目</h2>]]></content>
+    <content type="html"><![CDATA[<h1 id="一、基本环境"><a href="#一、基本环境" class="headerlink" title="一、基本环境"></a>一、基本环境</h1><h2 id="1、Node-js环境安装和配置"><a href="#1、Node-js环境安装和配置" class="headerlink" title="1、Node.js环境安装和配置"></a>1、Node.js环境安装和配置</h2><ul><li><a href="http://www.google.com/" target="_blank" rel="noopener">Node.js安装配置</a></li></ul><h2 id="2、Git环境安装和配置"><a href="#2、Git环境安装和配置" class="headerlink" title="2、Git环境安装和配置"></a>2、Git环境安装和配置</h2><ul><li><a href="http://www.google.com/" target="_blank" rel="noopener">Git安装配置</a></li></ul><h1 id="二、Hexo安装使用"><a href="#二、Hexo安装使用" class="headerlink" title="二、Hexo安装使用"></a>二、Hexo安装使用</h1><h2 id="1、Hexo全局安装"><a href="#1、Hexo全局安装" class="headerlink" title="1、Hexo全局安装"></a>1、Hexo全局安装</h2><p>win在cmd命令行中通过npm安装Hexo，-g表示全局安装。</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install -g hexo-cli</span><br></pre></td></tr></table></figure><h1 id="三、创建GitHub仓库"><a href="#三、创建GitHub仓库" class="headerlink" title="三、创建GitHub仓库"></a>三、创建GitHub仓库</h1><h2 id="1、创建项目"><a href="#1、创建项目" class="headerlink" title="1、创建项目"></a>1、创建项目</h2>]]></content>
     
     <summary type="html">
     
-      &lt;h1 id=&quot;一、基本环境&quot;&gt;&lt;a href=&quot;#一、基本环境&quot; class=&quot;headerlink&quot; title=&quot;一、基本环境&quot;&gt;&lt;/a&gt;一、基本环境&lt;/h1&gt;&lt;h2 id=&quot;1、Node-js环境安装和配置&quot;&gt;&lt;a href=&quot;#1、Node-js环境安装和配置&quot; class=&quot;headerlink&quot; title=&quot;1、Node.js环境安装和配置&quot;&gt;&lt;/a&gt;1、Node.js环境安装和配置&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.google.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Node.js安装配置&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;h2 id=&quot;2、Git环境安装和配置&quot;&gt;&lt;a href=&quot;#2、Git环境安装和配置&quot; class=&quot;headerlink&quot; title=&quot;2、Git环境安装和配置&quot;&gt;&lt;/a&gt;2、Git环境安装和配置&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.google.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Git安装配置&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;h1 id=&quot;二、Hexo安装使用&quot;&gt;&lt;a href=&quot;#二、Hexo安装使用&quot; class=&quot;headerlink&quot; title=&quot;二、Hexo安装使用&quot;&gt;&lt;/a&gt;二、Hexo安装使用&lt;/h1&gt;&lt;h2 id=&quot;1、Hexo全局安装&quot;&gt;&lt;a href=&quot;#1、Hexo全局安装&quot; class=&quot;headerlink&quot; title=&quot;1、Hexo全局安装&quot;&gt;&lt;/a&gt;1、Hexo全局安装&lt;/h2&gt;&lt;p&gt;win在cmd命令行中通过npm安装Hexo，-g表示全局安装。&lt;/p&gt;
+      
+      
+        &lt;h1 id=&quot;一、基本环境&quot;&gt;&lt;a href=&quot;#一、基本环境&quot; class=&quot;headerlink&quot; title=&quot;一、基本环境&quot;&gt;&lt;/a&gt;一、基本环境&lt;/h1&gt;&lt;h2 id=&quot;1、Node-js环境安装和配置&quot;&gt;&lt;a href=&quot;#1、Node-js环境安装和配置&quot; cla
+      
     
     </summary>
     
