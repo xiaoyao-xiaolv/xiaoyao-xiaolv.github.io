@@ -10,6 +10,16 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
 <meta name="theme-color" content="#222">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<script>
+    (function(){
+        if(''){
+            if (prompt('请输入文章密码') !== ''){
+                alert('密码错误！');
+                history.back();
+            }
+        }
+    })();
+</script>
   <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon.ico?v=7.3.0">
   <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon.ico?v=7.3.0">
   <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon.ico?v=7.3.0">
@@ -17,8 +27,10 @@
 
 <link rel="stylesheet" href="/css/main.css?v=7.3.0">
 
-
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&display=swap&subset=latin,latin-ext">
 <link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css?v=4.7.0">
+  <link rel="stylesheet" href="/lib/pace/pace-theme-minimal.min.css?v=1.0.2">
+  <script src="/lib/pace/pace.min.js?v=1.0.2"></script>
 
 
 <script id="hexo-configurations">
@@ -226,7 +238,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://xiaoyao-xiaolv.github.io/uncategorized/Hexo搭建博客系列：环境安装搭建/">
+    <link itemprop="mainEntityOfPage" href="https://xiaoyao-xiaolv.github.io/2019/08/23/Hexo搭建博客系列：环境安装搭建/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="逍遥小吕">
@@ -240,7 +252,7 @@
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
             
-            <a href="/uncategorized/Hexo搭建博客系列：环境安装搭建/" class="post-title-link" itemprop="url">Hexo搭建个人博客:环境安装搭建</a>
+            <a href="/2019/08/23/Hexo搭建博客系列：环境安装搭建/" class="post-title-link" itemprop="url">Hexo搭建个人博客:环境安装搭建</a>
           
         </h1>
 
@@ -262,6 +274,19 @@
 
             
           
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Hexo/" itemprop="url" rel="index"><span itemprop="name">Hexo</span></a></span>
+
+                
+                
+              
+            </span>
+          
 
           
 
@@ -276,14 +301,18 @@
       
           <h1 id="一、基本环境"><a href="#一、基本环境" class="headerlink" title="一、基本环境"></a>一、基本环境</h1><h2 id="1、Node-js环境安装和配置"><a href="#1、Node-js环境安装和配置" class="headerlink" title="1、Node.js环境安装和配置"></a>1、Node.js环境安装和配置</h2><ul>
 <li><a href="http://www.google.com/" target="_blank" rel="noopener">Node.js安装配置</a></li>
-</ul>
-<h2 id="2、Git环境安装和配置"><a href="#2、Git环境安装和配置" class="headerlink" title="2、Git环境安装和配置"></a>2、Git环境安装和配置</h2><ul>
+</ul><h2 id="2、Git环境安装和配置"><a href="#2、Git环境安装和配置" class="headerlink" title="2、Git环境安装和配置"></a>2、Git环境安装和配置</h2><ul>
 <li><a href="http://www.google.com/" target="_blank" rel="noopener">Git安装配置</a></li>
-</ul>
-<h1 id="二、Hexo安装使用"><a href="#二、Hexo安装使用" class="headerlink" title="二、Hexo安装使用"></a>二、Hexo安装使用</h1><h2 id="1、Hexo全局安装"><a href="#1、Hexo全局安装" class="headerlink" title="1、Hexo全局安装"></a>1、Hexo全局安装</h2><p>win在cmd命令行中通过npm安装Hexo，-g表示全局安装。</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install -g hexo-cli</span><br></pre></td></tr></table></figure>
-
-<h1 id="三、创建GitHub仓库"><a href="#三、创建GitHub仓库" class="headerlink" title="三、创建GitHub仓库"></a>三、创建GitHub仓库</h1><h2 id="1、创建项目"><a href="#1、创建项目" class="headerlink" title="1、创建项目"></a>1、创建项目</h2>
+</ul><h1 id="二、Hexo安装使用"><a href="#二、Hexo安装使用" class="headerlink" title="二、Hexo安装使用"></a>二、Hexo安装使用</h1><h2 id="1、Hexo全局安装"><a href="#1、Hexo全局安装" class="headerlink" title="1、Hexo全局安装"></a>1、Hexo全局安装</h2><p>win在cmd命令行中通过npm安装Hexo，-g表示全局安装。</p>
+          <!--noindex-->
+          
+            <div class="post-button text-center">
+              <a class="btn" href="/2019/08/23/Hexo搭建博客系列：环境安装搭建/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          
+          <!--/noindex-->
         
       
     </div>
@@ -359,6 +388,23 @@
     
       
       
+      <div class="site-state-item site-state-categories">
+        
+          
+            <a href="/categories/">
+          
+        
+        
+        
+          
+        
+        <span class="site-state-item-count">1</span>
+        <span class="site-state-item-name">分类</span>
+        </a>
+      </div>
+    
+      
+      
       <div class="site-state-item site-state-tags">
         
           
@@ -426,10 +472,6 @@
   </span>
   <span class="author" itemprop="copyrightHolder">逍遥小吕</span>
 </div>
-  <div class="powered-by">由 <a href="https://hexo.io" class="theme-link" rel="noopener" target="_blank">Hexo</a> 强力驱动 v3.9.0</div>
-  <span class="post-meta-divider">|</span>
-  <div class="theme-info">主题 – <a href="https://theme-next.org" class="theme-link" rel="noopener" target="_blank">NexT.Muse</a> v7.3.0</div>
-
         
 <div class="busuanzi-count">
   <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
@@ -475,6 +517,9 @@
   </div>
 
   
+    
+  
+  <script color='0,0,255' opacity='0.5' zIndex='-1' count='99' src="/lib/canvas-nest/canvas-nest.min.js"></script>
   <script src="/lib/jquery/index.js?v=3.4.1"></script>
   <script src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
   <script src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
