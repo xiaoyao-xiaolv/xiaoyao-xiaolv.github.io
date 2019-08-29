@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>Node.js环境安装和配置</title>
+      <link href="/2019/08/28/Node.js%E7%8E%AF%E5%A2%83%E5%AE%89%E8%A3%85%E5%92%8C%E9%85%8D%E7%BD%AE/"/>
+      <url>/2019/08/28/Node.js%E7%8E%AF%E5%A2%83%E5%AE%89%E8%A3%85%E5%92%8C%E9%85%8D%E7%BD%AE/</url>
+      
+        <content type="html"><![CDATA[<h1 id="一、安装包下载"><a href="#一、安装包下载" class="headerlink" title="一、安装包下载"></a>一、安装包下载</h1><p>Node.js安装包及源码下载地址为:<br><a href="https://nodejs.org/en/download/" class="LinkCard" target="_blank" rel="noopener">Node.js安装包及源码下载地址</a></p><p><img src="images/nodejs.png" alt="Node.js安装包"></p><p>根据操作系统选择需要的Node.js安装包</p><a id="more"></a><h1 id="二、Win10安装Node-js"><a href="#二、Win10安装Node-js" class="headerlink" title="二、Win10安装Node.js"></a>二、Win10安装Node.js</h1><ul><li>1、下载zip解压版 </li></ul><p>进入Node.js下载页，选择LTS下Win系统的.zip版本安装包下载。</p><p>将安装包拷贝到指定文件夹进行解压。</p><ul><li>2、环境变量配置</li></ul><p>添加Node和npm命令到PATH环境变量中</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">PATH变量增加Node.js安装路径。例： D:\SoftWare\node-v10<span class="number">.16</span><span class="number">.0</span>-win-x64</span><br></pre></td></tr></table></figure><p>查看是否安装成功</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="number">1</span>、查看node版本：node -v</span><br><span class="line"><span class="number">2</span>、查看npm版本：npm -v</span><br></pre></td></tr></table></figure><p><img src="images/version.png" alt="版本查看"></p><p>设置npm全局安装目录与缓存目录</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">npm config set prefix <span class="string">"D:\SoftWare\node-v10.16.0-win-x64\node_global"</span></span><br><span class="line">npm config set cache <span class="string">"D:\SoftWare\node-v10.16.0-win-x64\node_cache"</span></span><br></pre></td></tr></table></figure><p>修改环境变量</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">PATH变量增加： D:\SoftWare\node-v10<span class="number">.16</span><span class="number">.0</span>-win-x64\node_global</span><br><span class="line">新建NODE_PATH：  D:\SoftWare\node-v10<span class="number">.16</span><span class="number">.0</span>-win-x64\node_modules</span><br></pre></td></tr></table></figure><h1 id="三、测试验证"><a href="#三、测试验证" class="headerlink" title="三、测试验证"></a>三、测试验证</h1><p>配置完成后，安装个module测试验证一下，安装最常用的express模块，打开cmd窗口</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install express -g <span class="comment"># -g是全局安装</span></span><br></pre></td></tr></table></figure><p><img src="images/express.png" alt="安装模块"></p><p>打开全局安装目录可以看到已安装的express模块，如图：</p><p><img src="images/express_module.png" alt="安装模块"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Node.js </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Node.js </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hexo搭建个人博客:环境安装搭建</title>
       <link href="/2019/08/22/Hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%B3%BB%E5%88%97%EF%BC%9A%E7%8E%AF%E5%A2%83%E5%AE%89%E8%A3%85%E6%90%AD%E5%BB%BA/"/>
       <url>/2019/08/22/Hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%B3%BB%E5%88%97%EF%BC%9A%E7%8E%AF%E5%A2%83%E5%AE%89%E8%A3%85%E6%90%AD%E5%BB%BA/</url>
